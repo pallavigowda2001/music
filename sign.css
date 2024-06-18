@@ -1,0 +1,59 @@
+.login-container .card{
+    box-shadow: rgba(100, 100,111,0.2) 0px 7px 29px 0px;
+}
+
+.login-left ul li ::marker{
+    content: "✔️";
+}
+
+.login-left ul li{
+    margin-bottom: 10px;
+}
+
+.login-left .outline-btn{
+    border:none;
+    padding:15px;
+    min-width :200px;
+    background-color: transparent;
+    border :1px solid rgb(35,131,234);
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    color: rgb(35,131,234);
+    margin-top:20px;
+}
+
+.or{
+    width:100%;
+    height:1px;
+    background-color: rgb(186,186,186);
+    margin-top:30px;
+    position: relative;
+}
+.or::before{
+   content: "or";
+   position: absolute;
+   left:50%;
+   top:-14.8px;
+   background-color: #fff;
+   padding:3px;
+   color: rgb(217,217,217);
+}
+
+
+.google img{
+    width:20px;
+    height:20px;
+    flex:1;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    box-shadow:rgba(0,0,0,0.16)  ;
+}
+
+.google p{
+    text-align:center;
+    width:100%;
+}

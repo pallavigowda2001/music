@@ -1,0 +1,20 @@
+header{
+    box-shadow:rgba(60,64,67,0.3) 0px 1px 2px 0px, rgba(60,64,67,0.15) 0px 2px 6px 2px ;
+}
+
+.signup-left ul li::marker{
+    content: "✅";
+}
+
+.signup-left ul li{
+    margin-bottom: 10px;
+}
+
+.signup-left .card img{
+    width:200px;
+}
+
+.signup-container{
+    background-color: #a3abb9;
+    min-height: 100vh;
+}
